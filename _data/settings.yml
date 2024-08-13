@@ -1,0 +1,126 @@
+#-------------------------------
+# Site Settings
+
+title: Fin Cottle
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Portfolio website for Finlay Cottle, a solutions architect & software developer based in Bristol.
+
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'About'
+      url: '/about/'
+    - title: 'Blog'
+      url: '/blog/'
+    # - title: 'Pages'
+    #   submenu:
+    #   - url: '/about'
+    #     title: 'About'
+    #   - url: '/elements'
+    #     title: 'Elements'
+
+# Call to action button
+cta__button__text: Get in touch
+
+# Add global cover image (This field adds a background to the top and bottom of the site.)
+cover__image: '/images/37.jpg'
+
+
+#-------------------------------
+# Author Settings
+
+author:
+  name: Fin Cottle
+  title: Hello, I’m Fin Cottle
+  bio: Solutions Architect, Software Developer & Musician based in Bristol, England. I help businesses design & improve their architecture to lower cost and improve performance & usability.
+  # bio: Art Director & Graphic Designer based in Australia, crafting beautiful and functional websites and mobile apps. When I’m not working, I’m probably listening to relaxing music or traveling somewhere.
+  image: '/images/01.jpg'
+  avatar: '/images/01.jpg'
+  button__text: See my work
+
+
+#-------------------------------
+# Projects Settings
+
+projects__settings:
+  projects__title: Latest <span class="text-span">Projects</span> # Add a 'text-span' class to highlight text.
+  projects__description: I've worked on various projects over time, whether for myself or clients. I love learning new technologies and helping my clients bring their ideas to fruition.
+
+
+#-------------------------------
+# Testimonials Section
+
+testimonial__title: People I've <span class="text-span">worked with</span> # Add a 'text-span' class to highlight text.
+
+testimonial-items:
+  - name: "Matthew Burke"
+    image: "/images/mat.jpg"
+    designation : "Material Exchange"
+    content : "I've had the pleasure of collaborating with Fin on several projects, and I can confidently say he is among the best I've worked with. Not only does Fin have a deep understanding of many technologies, he also excels at communicating technical concepts to non-technical stakeholders. He has been a key contributor to our success."
+
+  # - name: "Ann Philips"
+  #   image: "/images/client-2.jpg"
+  #   designation : "Designer"
+  #   content : "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis consiliisque."
+
+  # - name: "Roger Bergson"
+  #   image: "/images/client-3.jpg"
+  #   designation : "CEO, Founder"
+  #   content : "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis consiliisque."
+
+  # - name: "Julie Arnold"
+  #   image: "/images/client-4.jpg"
+  #   designation : "Full stack developer"
+  #   content : "Quamquam id quidem, infinitum est in hac urbe, Ita multo sanguine profuso in laetitia et in victoria est mortuus. Atqui pugnantibus et contrariis consiliisque."
+
+
+#-------------------------------
+# Blog Section
+
+blog__settings:
+  blog__title: Recent <span class="text-span">Blog</span> Posts # Add a 'text-span' class to highlight text.
+  blog__description:
+
+
+#-------------------------------
+# Contact Settings
+
+contact__settings:
+  contact__email: finlaycottle@gmail.com # Add your email for contact form
+  contact__title: <span class="text-span">Get</span> in touch # Add a title to your form
+  contact__description: Solutions, Software or Music, I'd love to chat! # Add a description to your form
+
+# NOTE
+# Avenco comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+
+#-------------------------------
+# Newsletter Settings
+mailchimp__settings:
+  mailchimp__title: <span class="text-span">Join</span> my mailing list # Add your title
+  mailchimp__text: " 'Need help?', 'Want to find out more?' " # Add descriptions to the form by wrapping the text in single quotes. If you want to use more than one sentence, be sure to separate them with a comma.
+  mailchimp__identifier: gmail.us22.list-manage.com/subscribe/post?u=5dec1a41795a6ab829b636b5b&amp;id=466a3fe99d&amp;f_id=00f2d6e1f0 # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+  mailchimp__button__text: Subscribe # Add your button text
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvodstudio-demo # add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Footer Settings
+# Social Links
+# Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+- {icon: "ion-logo-github", link: "https://github.com/fincottle44"}
+- {icon: "ion-logo-linkedin", link: "https://linkedin.com/in/finlaycottle"}
